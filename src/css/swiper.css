@@ -1,0 +1,43 @@
+  .slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide-track {
+    display: flex;
+    width: calc(250px * 8); /* 250px là chiều rộng của một ảnh, 8 là số lượng ảnh (4 ảnh x 2 lần) */
+    animation: scroll 10s linear infinite;
+    transition: transform 0.5s ease-in-out;
+
+  }
+  
+  .slide-track img {
+    width: 100px; /* Đặt chiều rộng cho mỗi ảnh */
+    height: auto;
+  }
+  .swiper-container {
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100%;
+    max-width: 100vw; /* Đảm bảo container không vượt quá kích thước của màn hình */
+  }
+  
+  .swiper-slide {
+    display: inline-block;
+    width: calc(100% / 3);
+    max-width: 250px; /* Giới hạn kích thước tối đa của ảnh */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

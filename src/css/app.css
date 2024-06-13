@@ -1,0 +1,113 @@
+.page {
+  padding: 16px 16px 96px 16px;
+}
+
+.section-container {
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.zaui-list-item {
+  cursor: pointer;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.placeholder-style::placeholder {
+  color: #fff;
+}
+/* Font Family Config */
+@font-face {
+  font-family: BagelFatOne;
+  src: url("./../fonts/Bagel-Fat-One.ttf");
+}
+
+@font-face {
+  font-family: QuicksanBold;
+  src: url("./../fonts/Quicksand-Bold.ttf");
+}
+
+@font-face {
+  font-family: QuicksanLight;
+  src: url("./../fonts/Quicksand-Light.ttf");
+}
+
+@font-face {
+  font-family: QuicksanMedium;
+  src: url("./../fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+  font-family: QuicksanRegular;
+  src: url("./../fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+  font-family: QuicksanSemibold;
+  src: url("./../fonts/Quicksand-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: SouvenirBold;
+  src: url("./../fonts/SFUSouvenirBold.ttf");
+}
+
+.BagelFatOne {
+  font-family: BagelFatOne, cursive, Arial, sans-serif;
+}
+
+.QuicksanBold {
+  font-family: QuicksanBold, Arial, sans-serif;
+}
+
+.QuicksanLight {
+  font-family: QuicksanLight, Arial, sans-serif;
+}
+
+.QuicksanMedium {
+  font-family: QuicksanMedium, Arial, sans-serif;
+}
+
+.QuicksanRegular {
+  font-family: QuicksanRegular, Arial, sans-serif;
+}
+
+.QuicksanSemibold {
+  font-family: QuicksanSemibold, Arial, sans-serif;
+}
+
+.SouvenirBold {
+  font-family: SouvenirBold, Arial, sans-serif;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  animation: spin 10s linear infinite; /* áp dụng animation */
+}
+
+.container-background {
+  background-image: url("../static/images/background-main-app.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.splash-background {
+  background-image: url("../static/images/background-main-app.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

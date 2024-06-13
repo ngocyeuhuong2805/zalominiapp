@@ -1,0 +1,8 @@
+.custom-scroll::-webkit-scrollbar {
+  display: none; /* Ẩn thanh cuộn trên Chrome, Safari và Opera */
+}
+
+.custom-scroll {
+  -ms-overflow-style: none; /* Ẩn thanh cuộn trên Internet Explorer và Edge */
+  scrollbar-width: none; /* Ẩn thanh cuộn trên Firefox */
+}
